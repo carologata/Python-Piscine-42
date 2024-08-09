@@ -8,7 +8,6 @@ def main() -> None:
         print("none")
         return
     matches = re.findall(sys.argv[1], sys.argv[2])
-    print(matches)
     if not matches:
         print("none")
         return

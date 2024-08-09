@@ -9,7 +9,7 @@ def main() -> None:
         return
     try:
         start:int = int(sys.argv[1])
-        end = int(sys.argv[2])
+        end:int = int(sys.argv[2])
     except:
         print("Invalid input.")   
     for element in range(start, end + 1):
